@@ -64,39 +64,39 @@
                         <div class="form-group">
                             <div class="form-group">
                                 <label style="color:#72D29C" for="exampleInputPassword1">First Name</label>
-                                <input type="name" class="form-control" id="exampleInputPassword1">
+                                <input type="name" class="form-control" id="exampleInputPassword1"  pattern="[A-Za-z '\-]*" required autofocus>
                             </div>
                             <div class="form-group">
                                 <label style="color:#72D29C" for="exampleInputPassword1">Zip Code</label>
-                                <input type="zipcode" class="form-control" id="exampleInputPassword1">
+                                <input type="zipcode" class="form-control" id="exampleInputPassword1" required autofocus>
                             </div>
                             <div class="form-group">
                                 <label style="color:#72D29C" for="exampleInputPassword1">Birthday</label>
-                                <input type="name" class="form-control" id="exampleInputPassword1">
+                                <input type="name" class="form-control" id="exampleInputPassword1" required autofocus>
                             </div>
                             <div class="form-group">
-                                <label style="color:#72D29C" for="exampleInputPassword1">State</label>
-                                <input type="state" class="form-control" id="exampleInputPassword1">
+                                <label style="color:#72D29C" for="exampleInputPassword1" >State</label>
+                                <input type="state" class="form-control" id="exampleInputPassword1" pattern="[A-Za-z '\-]*" required autofocus>
                             </div>
                             <div class="form-group">
-                                <label style="color:#72D29C" for="exampleInputPassword1">Last Name</label>
-                                <input type="name" class="form-control" id="exampleInputPassword1">
+                                <label style="color:#72D29C" for="exampleInputPassword1" >Last Name</label>
+                                <input type="name" class="form-control" id="exampleInputPassword1" pattern="[A-Za-z '\-]*" required autofocus>
                             </div>
                             <div class="form-group">
-                                <label style="color:#72D29C" for="exampleInputPassword1">Street Name</label>
-                                <input type="street" class="form-control" id="exampleInputPassword1">
+                                <label style="color:#72D29C" for="exampleInputPassword1">Street Address</label >
+                                <input type="street" class="form-control" id="exampleInputPassword1" pattern="\d* [A-Za-z\-' ]*\.?" required autofocus>
                             </div>
                             <div class="form-group">
                                 <label style="color:#72D29C" for="exampleInputPassword1">Town</label>
-                                <input type="town" class="form-control" id="exampleInputPassword1">
+                                <input type="town" class="form-control" id="exampleInputPassword1" pattern="[A-Za-z '\-]*" required autofocus>
                             </div>
-                            <label style="color:#72D29C" for="exampleInputEmail1">Email address</label>
-                            <input type="e" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <label style="color:#72D29C" for="exampleInputEmail1"  >Email address</label>
+                            <input type="e" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,63}$" required autofocus>
                             <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
                         </div>
                         <div class="form-group">
                             <label style="color:#72D29C" for="exampleInputPassword1">Create A Password</label>
-                            <input type="p" class="form-control" id="exampleInputPassword1">
+                            <input type="p" class="form-control" id="exampleInputPassword1" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required autofocus>
                         </div>
 
                         <button type="submit" class="btn btn-primary">Submit</button>

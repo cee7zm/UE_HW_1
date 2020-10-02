@@ -17,6 +17,16 @@
         type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+    <style>
+        @font-face {
+            font-family: "myFirstFont";
+            src: url("static/DRAGONFLYsaji.ttf");
+        }
+        
+        .dragon {
+            font-family: "myFirstFont";
+        }
+        </style>
 </head>
 
 <body id="page-top">
@@ -58,14 +68,14 @@
                 <div class="container">
                     <!-- About Section Heading-->
                     <!-- <div><object data="file.txt"></object></div> -->
-                    <h3>Please select your anticipated major</h3>
-                    <h3>and graduation year.</h3>
+                    <h1 class="dragon">Please select your anticipated major</h1>
+                    <h1 class="dragon">and graduation year.</h1>
                     <form action="three.html">
                         <div class="form-group">
-                            <label style="color:white" for="exampleInputPassword1">Major</label>
-                            <input type="text" class="form-control" id="exampleInputPassword1">
+                            <label class="dragon" style="color:white" for="exampleInputPassword1">Major</label>
+                            <input type="text" class="form-control" id="exampleInputPassword1" pattern="[A-Za-z '\-]*" required autofocus>
                         </div>
-                        <label style="color:white" for="exampleInputPassword1">Graduation Year</label>
+                        <label class="dragon" style="color:white" for="exampleInputPassword1">Graduation Year</label>
                         <select class="form-control form-control-lg">
                             <option>2022</option>
                             <option>2023</option>
