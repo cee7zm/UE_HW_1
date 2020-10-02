@@ -1,10 +1,6 @@
 <?php ?>
 <!DOCTYPE html>
-<style>
-    p {
-        text-align: center;
-    }
-</style>
+
 <html lang="en">
 
 <head>
@@ -23,7 +19,14 @@
         type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
-  
+    <style>
+        body {
+            background-image: url("static/fans.jpg");
+            background-color: #cccccc;
+        }
+    </style>
+
+
 </head>
 
 <body id="page-top">
@@ -49,13 +52,32 @@
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a></li>
                     </ul>
                 </div> -->
-                <div>
-                    <h5 style="color:white">Step 6</h5>
-                </div>
+            <div>
+                <h5 style="color:white">Step 6</h5>
+            </div>
         </div>
     </nav>
     <!-- Masthead-->
 
+    <div style="background-image: url(static/fans.jpg); background-size: cover; height:600px; padding-top:80px; margin:0;">
+        <div class="container d-flex align-items-center flex-column">
+        <h5>.</h5>
+        <h3 style="color:#932B1E; position:relative; top:60px;">Essay Question:</h3>
+        <h5 style="color:#932B1E; position:relative; top:60px;">What is your favorite word and why?</h5>
+        <form action="seven.html" style="position:relative; top:100px;">
+            <div class="form-group">
+                 <label for="exampleFormControlTextarea1" style="color:blue;">Please enter the word:</label> 
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1" style="color:blue">Why? (limit to 100 words)</label> 
+               <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+           </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+            <p></p>
+        </form>
+        </div>
+    </div>
     <header class="masthead bg-primary text-white text-center">
         <div class="container d-flex align-items-center flex-column">
             <!-- Masthead Avatar Image-->
@@ -63,14 +85,9 @@
             <!-- Masthead Heading-->
 
             <section>
-                <div>
-                    <!-- <h1>FIVE</h1> -->
-                    <h3>Please click on the rotunda.</h3>
-                    
-                    <img height = "100" src="static/tundy.jpg" alt="" />
-                </div>
+                
             </section>
-           
+
             <!-- Footer-->
             <footer class="footer text-center">
                 <div class="container">
@@ -87,8 +104,8 @@
                         <!-- Footer Social Icons-->
                         <div class="col-lg-4 mb-5 mb-lg-0">
                             <div>
-                                
-                                <img src="static/rotunda.png" width="100" alt="" href="seven.html"/>
+                                <a href="seven.html"><img src="static/rotunda.png" alt="Rotunda" width="100"></a>
+                                <!-- <img src="static/rotunda.png" width="100" alt="" href="seven.html"/> -->
                             </div>
                             <p></p>
                             <h4 class="text-uppercase mb-4">Thank you for your interest in UVA.</h4>

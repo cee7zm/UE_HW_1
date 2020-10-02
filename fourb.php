@@ -28,6 +28,15 @@
             text-align: center;
         }
     </style>
+    <script>
+        function validateForm() {
+            var x = document.forms["myForm"]["dorm"].value;
+            if (x == "") {
+                alert("Include letter and dorm name");
+                return false;
+            }
+        }
+    </script>
 </head>
 
 <body id="page-top">
@@ -53,9 +62,9 @@
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a></li>
                     </ul>
                 </div> -->
-                <div>
-                    <h5 style="color:white">Step 4</h5>
-                </div>
+            <div>
+                <h5 style="color:white">Step 4/6</h5>
+            </div>
         </div>
     </nav>
     <!-- Masthead-->
@@ -70,21 +79,23 @@
                 <div>
                     <!-- <h1>FIVE</h1> -->
                     <h3>Please indicate which dorm you would reside in.</h3>
-                    
-                    <form action="six.html">
+
+                    <form name="myForm" action="five.html" onsubmit="return validateForm()" method="post">
                         <!-- first, last, street, zip, city, birthday -->
-                        <div class="form-group">
-                            <div class="form-group">
-                                <label for="exampleInputPassword1">Dorm:</label>
-                                <input type="name" class="form-control" id="exampleInputPassword1">
-                            </div>
-                           
+                        <label for="exampleInputPassword1">Dorm:</label>
+                        <br>
+                        <label for="exampleInputPassword1">Include both the letter and dorm name.</label>
+                        <input type="text" class="form-control" pattern="[a-z]+.+{4,20}$"
+                            title="Please include the corresponding letter, a period, and the dorm name" required
+                            autofocus id="exampleInputPassword1">
+
+
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </form>
-                
-                        
+
+
                     </table>
-                    
+
 
                 </div>
             </section>
@@ -94,67 +105,69 @@
                         <!-- <i class="fas fa-download mr-2"></i> -->
                         Back
                     </a>
-                    <a class="btn btn-xl btn-outline-light" href="six.html">
+                    <a class="btn btn-xl btn-outline-light" href="five.html">
                         <!-- <i class="fas fa-download mr-2"></i> -->
                         Next
                     </a>
                 </div>
             </section>
-            <!-- Footer-->
-            <footer class="footer text-center">
-                <div class="container">
-                    <div class="row">
-                        <!-- Footer Location-->
-                        <div class="col-lg-4 mb-5 mb-lg-0">
-                            <!-- <h4 class="text-uppercase mb-4">Location</h4>
+        </div>
+    </header>
+    <!-- Footer-->
+    <footer class="footer text-center">
+        <div class="container">
+            <div class="row">
+                <!-- Footer Location-->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <!-- <h4 class="text-uppercase mb-4">Location</h4>
                         <p class="lead mb-0">
                             2215 John Daniel Drive
                             <br />
                             Clark, MO 65243
                         </p> -->
-                        </div>
-                        <!-- Footer Social Icons-->
-                        <div class="col-lg-4 mb-5 mb-lg-0">
-                            <div>
-                                <img src="static/rotunda.png" width="100" alt="" />
-                            </div>
-                            <p></p>
-                            <h4 class="text-uppercase mb-4">Thank you for your interest in UVA.</h4>
-                            <!-- <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
+                </div>
+                <!-- Footer Social Icons-->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <div>
+                        <img src="static/rotunda.png" width="100" alt="" />
+                    </div>
+                    <p></p>
+                    <h4 class="text-uppercase mb-4">Thank you for your interest in UVA.</h4>
+                    <!-- <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
                         <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
                         <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
                         <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a> -->
-                        </div>
-                        <!-- Footer About Text-->
-                        <div class="col-lg-4">
-                            <h4 class="text-uppercase mb-4"></h4>
-
-                        </div>
-                    </div>
                 </div>
-            </footer>
+                <!-- Footer About Text-->
+                <div class="col-lg-4">
+                    <h4 class="text-uppercase mb-4"></h4>
 
-
-
-
-
-
-            <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
-            <div class="scroll-to-top d-lg-none position-fixed">
-                <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i
-                        class="fa fa-chevron-up"></i></a>
+                </div>
             </div>
+        </div>
+    </footer>
 
-            <!-- Bootstrap core JS-->
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
-            <!-- Third party plugin JS-->
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-            <!-- Contact form JS-->
-            <script src="assets/mail/jqBootstrapValidation.js"></script>
-            <script src="assets/mail/contact_me.js"></script>
-            <!-- Core theme JS-->
-            <script src="js/scripts.js"></script>
+
+
+
+
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
+    <div class="scroll-to-top d-lg-none position-fixed">
+        <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i
+                class="fa fa-chevron-up"></i></a>
+    </div>
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <!-- Contact form JS-->
+    <script src="assets/mail/jqBootstrapValidation.js"></script>
+    <script src="assets/mail/contact_me.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>

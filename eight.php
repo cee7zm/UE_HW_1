@@ -1,10 +1,5 @@
 <?php ?>
 <!DOCTYPE html>
-<style>
-    .bgimg {
-        background-image: url('/static/tundy.jpg');
-    }
-</style>
 <html lang="en">
 
 <head>
@@ -23,7 +18,6 @@
         type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
-
 </head>
 
 <body id="page-top">
@@ -50,7 +44,7 @@
                     </ul>
                 </div> -->
             <div>
-                <h5 style="color:white">Step 6/6</h5>
+                <h5 style="color:white">Complete!</h5>
             </div>
         </div>
     </nav>
@@ -61,86 +55,33 @@
             <!-- Masthead Avatar Image-->
             <!-- <img class="masthead-avatar mb-5" src="assets/img/avataaars.svg" alt="" /> -->
             <!-- Masthead Heading-->
-
-            <!-- <form action="eight.html"> -->
-            <!-- first, last, street, zip, city, birthday -->
-            <div class="form-group">
-                <div class="masthead bg-primary text-white text-center" id="view">
-                    <h2>UVA Undergraduate Schools</h2>
-                    <h3>Please Select One Below.</h3>
-                    <div id="container">
-                        <ul>
-                            <!-- row 01 -->
-                            <a href="#">
-                                <li class="clearfix">
-
-                                    <p class="desc">Mcintire School of Commerce</p>
-                                    <p class="location">School of Engineering and Applied Science</p>
-                                    <p class="time">School of Architecture</p>
-                                    <span class="jobtype">Part time</span>
-                                </li>
-                            </a>
-
-                            <!-- row 02 -->
-                            <a href="#">
-                                <li class="clearfix">
-
-                                    <!-- <h2>CEO</h2> -->
-                                    <p style="position:relative; top:200px;" class="desc">College of Arts and
-                                        Sciences</p>
-                                    <p style="position:relative; top:200px;" class="location">School of Nursing</p>
-                                    <p style="position:relative; top:200px;" class="time">Batten School of
-                                        Leadership and Public Policy</p>
-                                    <span style="position:relative; top:200px;" class="jobtype">Curry School of
-                                        Education</span>
-                                </li>
-                            </a>
-
-                            <!-- row 03
-                                <a href="#">
-                                    <li class="clearfix">
-                                        <h2>Interactive desiger</h2>
-                                        <p class="desc">Designer.</p>
-                                        <p class="location">NY.</p>
-                                        <p class="time">May</p>
-                                        <span class="jobtype">Full time</span>
-                                    </li>
-                                </a> -->
-
-                        </ul>
-                    </div>
+            <section class="page-section bg-primary text-white mb-0" id="about">
+                <div class="container">
+                    <h1>Complete!</h1>
+                    <h1>Thank you for your application!</h1>
                 </div>
-                <div class="masthead bg-primary text-white text-center" style="position:relative; top:100px;">
-                    <form action="eight.html">
-                        <div class="form-group">
-                            <label style="color:white" for="exampleInputPassword1">Type Selected School</label>
-                            <input type="name" class="form-control" id="exampleInputPassword1">
-                        </div>
-
-
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
-                </div>
-                <!-- <div class=".bgimg" style="background-image: url(static/tundy.jpg;)">
-                        <h1>Trial.</h1>
-                    </div> -->
-                <!-- Footer-->
-            </div>
-
+            </section>
         </div>
     </header>
-    <footer style="position:relative; down:100px;"class="footer text-center">
+
+    <!-- Footer-->
+    <footer class="footer text-center">
         <div class="container">
             <div class="row">
                 <!-- Footer Location-->
                 <div class="col-lg-4 mb-5 mb-lg-0">
+                    <!-- <h4 class="text-uppercase mb-4">Location</h4>
+                        <p class="lead mb-0">
+                            2215 John Daniel Drive
+                            <br />
+                            Clark, MO 65243
+                        </p> -->
 
                 </div>
                 <!-- Footer Social Icons-->
                 <div class="col-lg-4 mb-5 mb-lg-0">
                     <div>
-
-                        <img src="static/rotunda.png" width="100" alt="" href="seven.html" />
+                        <img src="static/rotunda.png" width="100" alt="" />
                     </div>
                     <p></p>
                     <h4 class="text-uppercase mb-4">Thank you for your interest in UVA.</h4>
@@ -157,8 +98,6 @@
             </div>
         </div>
     </footer>
-
-
 
 
 

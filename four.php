@@ -53,9 +53,9 @@
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a></li>
                     </ul>
                 </div> -->
-                <div>
-                    <h5 style="color:white">Step 4</h5>
-                </div>
+            <div>
+                <h5 style="color:white">Step 4/6</h5>
+            </div>
         </div>
     </nav>
     <!-- Masthead-->
@@ -67,115 +67,117 @@
             <!-- Masthead Heading-->
 
             <section>
-                <div>
-                    <h3>Should you be accepted, locate which dorm you will be assigned</h3>
+                <div class="container d-flex align-items-center flex-column">
+                    <h3>Should you be accepted, here is the dorm you will be assigned</h3>
                     <h5>Dorms are assigned alphabetically by last name.</h5>
-                    
-                    <table class="center">
+
+                    <table>
                         <tr>
                             <th>Dorm</th>
                             <th>First Letter of Last Name</th>
                         </tr>
                         <tr>
-                            <td>Bonnycastle</th>
+                            <td>A. Bonnycastle</th>
                             <td>A-C</td>
-                            <tr>
-                            <td>Dabney</th>
+                        <tr>
+                            <td>B. Dabney</th>
                             <td>D-E</td>
                         </tr>
-
-                            <td>Echols</th>
+                        <tr>
+                            <td>C. Echols</th>
                             <td>F-I</td>
                         </tr>
                         <tr>
-                            <th>Emmet</th>
+                            <td>D. Emmet</th>
                             <td>J-K</td>
                         </tr>
                         <tr>
-                            <th>Hancock</th>
+                            <td>E. Hancock</th>
                             <td>L-M</td>
                         </tr>
                         <tr>
-                            <th>Humphreys</th>
+                            <td>F. Humphreys</th>
                             <td>N-Q</td>
                         </tr>
                         <tr>
-                            <th>Kent</th>
+                            <td>G. Kent</th>
                             <td>R-S</td>
                         </tr>
                         <tr>
-                            <th>Lefevre</th>
+                            <td>H. Lefevre</th>
                             <td>T-V</td>
                         </tr>
                         <tr>
-                            <th>Metcalf</th>
+                            <td>I. Metcalf</th>
                             <td>W-Z</td>
                         </tr>
                         </tr>
-                        
+
                     </table>
-                    <a class="btn btn-xl btn-outline-light" href="five.html">
+                    <a class="btn btn-xl btn-outline-light" href="fourB.html">
                         <!-- <i class="fas fa-download mr-2"></i> -->
                         Next
                     </a>
 
                 </div>
             </section>
-            <!-- Footer-->
-            <footer class="footer text-center">
-                <div class="container">
-                    <div class="row">
-                        <!-- Footer Location-->
-                        <div class="col-lg-4 mb-5 mb-lg-0">
-                            <!-- <h4 class="text-uppercase mb-4">Location</h4>
+        </div>
+    </header>
+    <!-- Footer-->
+    <footer class="footer text-center">
+        <div class="container">
+            <div class="row">
+                <!-- Footer Location-->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <!-- <h4 class="text-uppercase mb-4">Location</h4>
                         <p class="lead mb-0">
                             2215 John Daniel Drive
                             <br />
                             Clark, MO 65243
                         </p> -->
-                        </div>
-                        <!-- Footer Social Icons-->
-                        <div class="col-lg-4 mb-5 mb-lg-0">
-                            <div>
-                                <img src="static/rotunda.png" width="100" alt="" />
-                            </div>
-                            <p></p>
-                            <h4 class="text-uppercase mb-4">Thank you for your interest in UVA.</h4>
-                            <!-- <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
+                </div>
+                <!-- Footer Social Icons-->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <div>
+                        <img src="static/rotunda.png" width="100" alt="" />
+                    </div>
+                    <p></p>
+                    <h4 class="text-uppercase mb-4">Thank you for your interest in UVA.</h4>
+                    <!-- <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
                         <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
                         <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
                         <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a> -->
-                        </div>
-                        <!-- Footer About Text-->
-                        <div class="col-lg-4">
-                            <h4 class="text-uppercase mb-4"></h4>
-
-                        </div>
-                    </div>
                 </div>
-            </footer>
+                <!-- Footer About Text-->
+                <div class="col-lg-4">
+                    <h4 class="text-uppercase mb-4"></h4>
 
-
-
-
-
-
-            <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
-            <div class="scroll-to-top d-lg-none position-fixed">
-                <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i
-                        class="fa fa-chevron-up"></i></a>
+                </div>
             </div>
+        </div>
+    </footer>
 
-            <!-- Bootstrap core JS-->
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
-            <!-- Third party plugin JS-->
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-            <!-- Contact form JS-->
-            <script src="assets/mail/jqBootstrapValidation.js"></script>
-            <script src="assets/mail/contact_me.js"></script>
-            <!-- Core theme JS-->
-            <script src="js/scripts.js"></script>
+
+
+
+
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
+    <div class="scroll-to-top d-lg-none position-fixed">
+        <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i
+                class="fa fa-chevron-up"></i></a>
+    </div>
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <!-- Contact form JS-->
+    <script src="assets/mail/jqBootstrapValidation.js"></script>
+    <script src="assets/mail/contact_me.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
