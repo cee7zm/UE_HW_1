@@ -17,3 +17,10 @@ STEP 6: Select which UVA School to attend.
 
 
 CODE CITATIONS
+https://www.w3schools.com/html/html_images_background.asp
+https://www.w3schools.com/cssref/pr_background-image.asp
+https://stackoverflow.com/questions/19619428/html5-form-validation-pattern-alphanumeric-with-spaces
+https://stackoverflow.com/questions/38086083/to-use-local-font-in-html-using-font-face
+http://www.tizag.com/cssT/position.php
+https://www.quora.com/In-HTML-how-do-you-center-a-paragraph
+https://www.w3schools.com/html/html_images.asp
